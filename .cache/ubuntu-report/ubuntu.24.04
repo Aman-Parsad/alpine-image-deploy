@@ -1,0 +1,68 @@
+{
+  "Version": "24.04",
+  "OEM": {
+    "Vendor": "innotek GmbH",
+    "Product": "VirtualBox",
+    "Family": "Virtual Machine"
+  },
+  "BIOS": {
+    "Vendor": "innotek GmbH",
+    "Version": "VirtualBox"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v2",
+  "GPU": [
+    {
+      "Vendor": "80ee",
+      "Model": "beef"
+    }
+  ],
+  "RAM": 4,
+  "Disks": [
+    37.6
+  ],
+  "Partitions": [
+    35.8
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1360x665",
+      "Frequency": "59.82"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Type": "Flutter",
+    "OEM": false,
+    "Media": "Ubuntu 24.04 LTS",
+    "Stages": {
+      "4": "loading",
+      "5": "locale",
+      "13": "accessibility",
+      "18": "network",
+      "20": "autoinstall",
+      "27": "sourceSelection",
+      "38": "codecsAndDrivers",
+      "51": "storage",
+      "58": "identity",
+      "82": "timezone",
+      "84": "confirm",
+      "89": "install",
+      "2392": "done"
+    },
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "PartitionMethod": "use_device",
+    "UseActiveDirectory": false
+  }
+}
